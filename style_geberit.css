@@ -1,0 +1,112 @@
+
+
+
+/* /// Page navigation
+-------------------------------------------------------------- */
+
+.cuadric_page_navi {
+	display: block !important;
+	overflow: hidden;
+	margin-top: 20px;
+}
+	.navigation.archive {
+		font-size: 0;
+	}
+	.navigation.single {
+		margin-top: 3em;
+	}
+
+
+	.prev-post {
+		float:left;
+		max-width:47%;
+		font-size: 13px;
+		text-align: left;
+	}
+	.next-post {
+		float:right;
+		max-width:47%;
+		font-size: 13px;
+		text-align: right;
+	}
+		.next-post a {
+		}
+		.prev-post a {
+		}
+		
+		
+	.navigation ul {
+		margin:0;
+	}
+		.navigation li {
+			display: inline-block;
+			font-size: 12px;
+			vertical-align: middle;
+		}
+			.navigation.archive a {
+				text-decoration: none;
+				display: block;
+				color: #9AC547;
+				margin-right: 3px;
+				min-width: 15px;
+				border: 1px solid #9AC547;
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				line-height: 20px;
+			}
+				.navigation.archive a:hover {
+					background-color: #9AC547;
+					color: #FFF;
+				}
+				.navigation a:active {
+				}
+			.navigation .current { /* <span> */
+				display: block;
+				background-color: #4C145E;
+				color:#fff;
+				margin-right: 3px;
+				min-width: 15px;
+				border: 1px solid #4C145E;
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				line-height: 20px;
+			}
+
+			.navigation a.prev,
+			.navigation a.next {
+				border: none;
+				width: 20px;
+				height: 20px;
+				padding: 0;
+			}
+				.navigation a.prev {
+					background: transparent url(flechas.png) no-repeat left bottom;
+					margin-right: 10px;
+				}
+				.navigation a.next {
+					background: transparent url(flechas.png) no-repeat right bottom;
+					margin-left: 10px;
+				}
+					.navigation a.prev:hover {
+						background: transparent url(flechas.png) no-repeat left top;
+					}
+					.navigation a.next:hover {
+						background: transparent url(flechas.png) no-repeat right top;
+					}
+		.navigation .dots { /* <span> */
+				padding: 6px 5px;
+		}
+
+	.navigation .nav_label {
+		font-weight: bold;
+		display: block;
+		margin-bottom: 8px;
+	}
+
+.navigation.comments {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
